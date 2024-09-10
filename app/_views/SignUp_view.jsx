@@ -41,7 +41,7 @@ const SignUpScreen = ({ navigation }) => {
       return;
     }
 
-    fetch('https://tor.appdevelopers.mobi/api/login', {
+    fetch('https://tor.appdevelopers.mobi/api/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
